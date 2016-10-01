@@ -21,8 +21,10 @@ public class MontyHallInClass
 		
 		double percentSwitchWin = (double) switchWin/numSim * 100;
 		percentSwitchWin = format(percentSwitchWin);
+		double percentStayWin = format(100-percentSwitchWin);
+		
 		System.out.println("% Switch win: " + percentSwitchWin);
-		System.out.println("% Stay win: " + (100-percentSwitchWin));
+		System.out.println("% Stay win: " + percentStayWin);
 		
 		
 		
