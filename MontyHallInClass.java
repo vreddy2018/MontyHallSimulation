@@ -11,7 +11,7 @@ public class MontyHallInClass
 	public static void main(String[]args)
 	{
 
-		int numSim = Integer.parseInt(args[0]);
+		int numSim = Integer.parseInt(args[0]); //takes the user's input from the command line
 		
 		int switchWin = 0;
 		for (int i = 0; i < numSim; i++)
